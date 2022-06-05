@@ -1,0 +1,12 @@
+@media screen and (max-width:1000px) {
+    #canvas {
+        width: 100%;
+    }
+
+    #start,
+    #gameOver,
+    #youWin {
+        width: 100%;
+        padding: 3rem .5rem;
+    }
+}

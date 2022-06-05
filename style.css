@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#start {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 10rem;
+    height: 100vh;
+    background-color: #161414;
+    position: relative;
+}
+
+h1 {
+    font-family: Pacifico, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#start img {
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    object-fit: cover;
+}
+
+#start p {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    position: relative;
+    top: 35%;
+    transform: translateY(-35%);
+}
+
+#start button {
+    position: absolute;
+    top: 75%;
+    transform: translate(0, -75%);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 17%;
+    height: 9%;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: Poppins, san-serif;
+}
+
+#start button:hover {
+    background: #920404;
+    color: #a49f9f;
+}
+
+#canvas {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    background-color: rgb(252, 96, 96);
+    position: relative;
+}
+
+p {
+    color: white;
+}
+
+#timer {
+    position: absolute;
+    left: 80%;
+    font-size: 2rem;
+    font-family: Genos, san-serif;
+}
+
+#score {
+    position: absolute;
+    right: 80%;
+    font-size: 2rem;
+    font-family: Genos, san-serif;
+}
+
+#status,
+#status1,
+#status2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #000;
+    font-family: Poppins, san-serif;
+    text-align: center;
+}
+
+#die {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dice {
+    width: 20%;
+    height: 25vh;
+    top: -120%;
+    transform: translate(0, 120%);
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 25vh;
+}
+
+#canvas #btn1 {
+    position: absolute;
+    top: 65%;
+    transform: translate(0, -65%);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 15%;
+    height: 7%;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: Poppins, san-serif;
+}
+
+#canvas #btn1:hover {
+    background: rgb(26, 26, 26);
+    color: rgb(246, 153, 24);
+}
+
+#gameOver,
+#youWin {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 10rem;
+    height: 100vh;
+    background-color: #161414;
+    position: relative;
+}
+
+#status1 {
+    color: #fff;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#gameOver img,
+#youWin img {
+    width: 15%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    object-fit: cover;
+}
+
+#gameOver #btn2,
+#youWin #btn3 {
+    position: absolute;
+    top: 75%;
+    transform: translate(0, -65%);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 15%;
+    height: 7%;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: Poppins, san-serif;
+}
+
+#gameOver #btn2:hover {
+    background: rgb(26, 26, 26);
+    color: rgb(246, 153, 24);
+}
+
+#youWin #btn3 {
+    top: 80%;
+}
+
+#youWin #btn3:hover {
+    background: rgb(26, 26, 26);
+    color: rgb(246, 153, 24);
+}
+
+#youWin #btn3:hover {
+    background: rgb(26, 26, 26);
+    color: rgb(246, 153, 24);
+}
+
+#status2 {
+    color: #fff;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#youWin img {
+    top: 65%;
+}

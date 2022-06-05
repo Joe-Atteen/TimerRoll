@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimerRoll</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Genos&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body onload="pageLoad()">
+    <div id="start">
+        <h1>timerROLL</h1>
+        <img src="images/dice-transparent-png-9.png" alt="">
+        <p>All you need to do is roll the dice and get 500 points or more in under 10 seconds. Can you? Prove it by
+            clicking on
+            the 'start game' button below. The countdown starts right after clicking the button. Good luck!</p>
+        <button id="startbtn">START GAME</button>
+    </div>
+    <div id="canvas">
+        <p id="timer"></p>
+        <p id="score"></p>
+        <p id="status"></p>
+        <div id="die">
+            <div class="dice" id="die1">0</div>
+            <div class="dice" id="die2">0</div>
+        </div>
+        <button id="btn1">Roll Dice</button><br>
+    </div>
+    <div id="gameOver">
+        <h1>GAME OVER</h1>
+        <p id="status1"></p>
+        <img src="https://c.tenor.com/Zm9PpG08ecMAAAAi/10-monkey.gif" alt="">
+        <button id="btn2" hidden>Play Again</button>
+    </div>
+    <div id="youWin">
+        <h1>WOW! VERY IMPRESSIVE</h1>
+        <p id="status2"></p>
+        <img src="https://c.tenor.com/KmLVZ0FTxkgAAAAi/yes-yupi.gif" alt="">
+        <button id="btn3" hidden>Play Again</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
