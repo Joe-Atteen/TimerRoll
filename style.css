@@ -50,16 +50,16 @@ h1 {
     height: 9%;
     font-size: 1.3rem;
     cursor: pointer;
-    background: #000;
-    color: #fff;
-    border: none;
+    background: #920404;
+    color: #f1f1f1;
+    border: 1px solid #fff;
     border-radius: 3px;
     font-family: Poppins, san-serif;
 }
 
 #start button:hover {
-    background: #920404;
-    color: #a49f9f;
+    background: #000;
+    color: #fff;
 }
 
 #canvas {
@@ -180,7 +180,7 @@ p {
     cursor: pointer;
     background: #000;
     color: #fff;
-    border: none;
+    border: 1px solid #fff;
     border-radius: 3px;
     font-family: Poppins, san-serif;
 }

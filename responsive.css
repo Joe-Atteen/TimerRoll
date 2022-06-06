@@ -7,7 +7,9 @@
     #gameOver,
     #youWin {
         width: 100%;
-        padding: 4rem .7rem;
+        padding: 0 .7rem;
+        padding-top: 4rem;
+        padding-bottom: 0;
     }
 
     #start h1 {
@@ -28,7 +30,7 @@
         width: 40%;
         height: 8%;
         font-size: 1.1rem;
-        top: 80%;
+        top: 85%;
     }
 }
 
