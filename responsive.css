@@ -1,4 +1,4 @@
-@media screen and (max-width:1000px) {
+@media screen and (max-width:760px) {
     #canvas {
         width: 100%;
     }
@@ -7,6 +7,151 @@
     #gameOver,
     #youWin {
         width: 100%;
-        padding: 3rem .5rem;
+        padding: 4rem .7rem;
+    }
+
+    #start h1 {
+        font-size: 3rem;
+    }
+
+    #start img {
+        width: 50%;
+    }
+
+    #start p {
+        text-align: justify;
+        font-size: 1rem;
+        top: 40%;
+    }
+
+    #start button {
+        width: 40%;
+        height: 8%;
+        font-size: 1.1rem;
+        top: 80%;
+    }
+}
+
+@media screen and (min-width:761px) and (max-width:1000px) {
+    #canvas {
+        width: 100%;
+    }
+
+    #start,
+    #gameOver,
+    #youWin {
+        width: 100%;
+        padding: 4rem .7rem;
+    }
+
+    #start button {
+        width: 35%;
+        height: 8%;
+        font-size: 1.5rem;
+        top: 80%;
+    }
+}
+
+@media screen and (max-width:410px) {
+
+    #gameOver h1 {
+        font-size: 2.7rem;
+    }
+
+    #gameOver p,
+    #youWin p {
+        font-size: 1.5rem;
+    }
+
+    #gameOver img,
+    #youWin img {
+        width: 50%;
+    }
+
+    #gameOver #btn2,
+    #youWin #btn3 {
+        width: 45%;
+        height: 8%;
+        font-size: 1.2rem;
+        top: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #youWin h1 {
+        font-size: 2rem;
+    }
+
+    #canvas #status {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:410px) and (max-width:1000px) {
+
+    #gameOver img,
+    #youWin img {
+        width: 30%;
+    }
+
+    #gameOver #btn2,
+    #youWin #btn3 {
+        width: 45%;
+        height: 8%;
+        font-size: 1.7rem;
+        top: 80%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:884px) {
+
+    #gameOver h1,
+    #youWin h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1100px) {
+    #timer {
+        left: 70%;
+    }
+
+    #score {
+        right: 78%;
+    }
+}
+
+@media screen and (max-width:699px) {
+    #timer {
+        font-size: 1.2rem;
+        left: 70%;
+    }
+
+    #score {
+        font-size: 1.2rem;
+        right: 75%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+    #canvas #btn1 {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:499px) {
+    #canvas #btn1 {
+        width: 40%;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    #gameOver h1 {
+        font-size: 1.8rem;
+    }
+
+    #gameOver p {
+        font-size: 1.2rem;
     }
 }

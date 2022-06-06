@@ -35,6 +35,9 @@ startBtn.addEventListener('click', function () {
     let timerInterval = setInterval(function () {
         time -= 1;
         timer.innerHTML = `Time Left: ${time}`;
+        if (time <= 4) {
+            timer.style.color = 'red';
+        }
         if (time === 0 && scores < 500) {
             clearInterval(timerInterval);
             timer.innerHTML = `Time's up!`;
@@ -43,7 +46,7 @@ startBtn.addEventListener('click', function () {
             btn2.hidden = false;
             gameover.style.display = 'block';
             canvas.style.display = 'none';
-            status1.innerHTML = `You lose! Your managed ${scores} points.`;
+            status1.innerHTML = `You lose! You managed ${scores} points.`;
         }
         else if (time >= 0 && scores >= 500) {
             clearInterval(timerInterval);
@@ -53,7 +56,7 @@ startBtn.addEventListener('click', function () {
             youWin.style.display = 'block';
             gameover.style.display = 'none';
             canvas.style.display = 'none';
-            status2.innerHTML = `You win! Your managed ${scores} points.`;
+            status2.innerHTML = `You win! You managed ${scores} points.`;
         }
     }, 1000);
 });
@@ -69,9 +72,14 @@ btn3.addEventListener('click', function () {
 
 btn1.addEventListener('click', function () {
     let d1 = Math.floor(Math.random() * 6) + 1;
+    let d1Img = `images/dice${d1}.png`;
+    die1.setAttribute('src', d1Img);
+
+
     let d2 = Math.floor(Math.random() * 6) + 1;
-    die1.innerHTML = d1;
-    die2.innerHTML = d2;
+    let d2Img = `images/dice${d2}.png`;
+    die2.setAttribute('src', d2Img);
+
     let sum = d1 + d2;
     status.innerHTML = `You rolled a/an ${sum}`;
 

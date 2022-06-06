@@ -83,7 +83,7 @@ p {
 
 #score {
     position: absolute;
-    right: 80%;
+    right: 82.5%;
     font-size: 2rem;
     font-family: Genos, san-serif;
 }
@@ -96,7 +96,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
-    color: #000;
+    color: #000000;
     font-family: Poppins, san-serif;
     text-align: center;
 }
@@ -106,14 +106,11 @@ p {
     justify-content: space-evenly;
 }
 
-.dice {
-    width: 20%;
+.dice img {
+    width: 100%;
     height: 25vh;
     top: -120%;
     transform: translate(0, 120%);
-    background-color: #fff;
-    border: 1px solid #000;
-    font-size: 6rem;
     text-align: center;
     line-height: 25vh;
 }
@@ -138,6 +135,10 @@ p {
 #canvas #btn1:hover {
     background: rgb(26, 26, 26);
     color: rgb(246, 153, 24);
+}
+
+#gameOver h1 {
+    color: #c92626;
 }
 
 #gameOver,
@@ -187,6 +188,32 @@ p {
 #gameOver #btn2:hover {
     background: rgb(26, 26, 26);
     color: rgb(246, 153, 24);
+}
+
+#youWin h1 {
+    animation: blinking .8s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        color: #ef3e23;
+    }
+
+    25% {
+        color: #dcf11c;
+    }
+
+    50% {
+        color: #ee591e;
+    }
+
+    75% {
+        color: #0aa9f3;
+    }
+
+    100% {
+        color: #ffc403;
+    }
 }
 
 #youWin #btn3 {
