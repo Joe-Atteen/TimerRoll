@@ -31,7 +31,7 @@ startBtn.addEventListener('click', function () {
     gameover.style.display = 'none';
     youWin.style.display = 'none';
 
-    let time = 10;
+    let time = 12;
     let timerInterval = setInterval(function () {
         time -= 1;
         timer.innerHTML = `Time Left: ${time}`;

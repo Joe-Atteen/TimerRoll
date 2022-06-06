@@ -150,10 +150,10 @@
 
 @media screen and (max-width:321px) {
     #gameOver h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     #gameOver p {
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
 }
